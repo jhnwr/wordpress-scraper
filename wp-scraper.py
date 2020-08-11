@@ -38,7 +38,7 @@ while True:
     print(f'Page {x}')
     articles = request(x)
     x = x + 1
-    time.sleep(1.5)
+    time.sleep(3)
     if len(articles) != 0:
         parse(articles)
     else:
